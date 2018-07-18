@@ -4,7 +4,7 @@ object detection as a service
 
 
 # config
-set <a href='https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md' target='_blan' >pb</a> file path to PATH_TO_CKPT in odapi_server.py
+set <a href='https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md' target='_blan' >pb</a> file path to ```PATH_TO_CKPT``` in ```odapi_server.py```
  
  
 # run 
