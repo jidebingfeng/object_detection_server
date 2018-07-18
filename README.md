@@ -1,18 +1,21 @@
-# object_detection_server
-object detection as a service
+# Object_detection_server
+Object detection as a service
+<p align="center">
+  <img src="result.jpg" width="500">
+</p>
 
 
 
-# config
+# Config
 1. set <a href='https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md' target='_blan' >pb</a> file path to ```PATH_TO_CKPT``` and pbtxt file path to ```PATH_TO_LABELS``` in ```odapi_server.py```
-2. copy all file to ```tensorflow/models/research/```
+2. copy file: ```cp ./* /path/to/tensorflow/models/research/ -rf```
  
  
-# run 
+# Run 
 ```
 python odapi.py
 ```
 
 
-# visit
+# Visit
 http://127.0.0.1:5000
